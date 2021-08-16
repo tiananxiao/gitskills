@@ -1,5 +1,5 @@
 /* global NexT, CONFIG */
-
+// 新增一段内容看冲突不
 HTMLElement.prototype.wrap = function(wrapper) {
   this.parentNode.insertBefore(wrapper, this);
   this.parentNode.removeChild(this);
